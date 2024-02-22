@@ -1,0 +1,141 @@
+{
+   "university": [
+      {
+         "id": 1,
+         "title": "인문대학",
+         "content": "인문대학의 교육목표는 전체적으로 대한민국과 세계 인류의 미래 안정과 평화, 발전에 이바지할 인문학적 소양을 갖춘 성실하고 유능한 전문인 양성.",
+         "department": ["국어국문학과", "영어영문학과", "유럽문화학부", "아시아문화학부", "철학과", "역사학과"],
+         "src": "images/univ_graduate/College_of_Humanities.png"
+      },
+      {
+         "id": 2,
+         "title": "사회과학대학",
+         "content": "사회과학대학은 21세기의 정보화, 민주화, 세계화의 주요 흐름 속에서 창의와 융합능력, 균형감으로 사회 각 분야를 주도할 인재양성을 목표",
+         "department": [
+            "정치국제학과",
+            "공공인재학부",
+            "심리학과",
+            "문헌정보학과",
+            "사회복지학부",
+            "미디어커뮤니케이션학부",
+            "도시계획·부동산학과",
+            "사회학과"
+         ],
+         "src": "images/univ_graduate/College_of_Social_Sciences.png"
+      },
+      {
+         "id": 3,
+         "title": "사범대학",
+         "content": "개인의 인격발달과 능력신장에 기여하며 국가와 사회발전의 원동력이 되는 교육에 관한 실제이론과 실제를 학습하고 연구하며 지도자적 인품을 형성함으로써 유능한 교사와 사회전반의 유능한 인재가 되기 위한 지식과 태도 및 기능을 습득",
+         "department": ["교육학과", "유아교육과", "영어교육과", "체육교육과"],
+         "src": "images/univ_graduate/College_of_Education.png"
+      },
+      {
+         "id": 4,
+         "title": "자연과학대학",
+         "content": "자연과학의 근간이 되는 물리, 화학, 생명과학 및 수학 등의 기초과학을 교육하고 연구하는 대학으로서 치열한 과학기술의 세계적인 경쟁시대를 맞이하여 우리대학의 창학정신을 실현할 수 있는 성실한 인격과 창의력을 갖춘 고급 과학 기술인력을 양성함",
+         "department": ["물리학과", "화학과", "생명과학과", "수학과"],
+         "src": "images/univ_graduate/College_of_Natural_Sciences.png"
+      },
+      {
+         "id": 5,
+         "title": "생명공학대학",
+         "content": "생명공학대학은 생명체에서 일어나는 다양하고 복잡한 생명현상을 연구하고 이를 통해 얻어진 과학적 발견에 공학적인 시스템 및 응용원리를 접목합니다.",
+         "department": ["생명자원공학부", "식품공학부", "시스템생명공학과"],
+         "src": "images/univ_graduate/College_of_Biotechnology_and_Natural_Resources.png"
+      },
+      {
+         "id": 6,
+         "title": "공과대학",
+         "content": "'의와 참'의 창학이념을 바탕으로 지역, 국가, 인류의 번영과 정보화 사회를 주도할 지도력과 책임감을 겸비한 글로벌 공학인 양성을 목적으로 함",
+         "department": [
+            "사회기반시스템공학부",
+            "건축학부",
+            "화학신소재공학부",
+            "기계공학부",
+            "에너지시스템공학부",
+            "첨단소재공학과"
+         ],
+         "src": "images/univ_graduate/College_of_Engineering.png"
+      },
+      {
+         "id": 7,
+         "title": "창의ICT공과대학",
+         "content": "'의와 참'의 창학이념을 바탕으로 지역, 국가, 인류의 번영과 정보화 사회를 주도할 지도력과 책임감을 겸비한 글로벌 공학인 양성을 목적으로 함",
+         "department": ["전자전기공학부", "융합공학부", "차세대반도체학과"],
+         "src": "images/univ_graduate/College_of_ICT_Engineering.png"
+      },
+      {
+         "id": 8,
+         "title": "소프트웨어대학",
+         "content": "다양한 소프트웨어 관련 분야에서 중추적 역할을 수행할 전문적이고 창조적인 능력을 갖춘 인재들을 양성함으로써 국가와 인류의 번영에 기여함을 목적으로 함",
+         "department": ["소프트웨어학부", "AI학과"],
+         "src": "images/univ_graduate/College_of_Software.png"
+      },
+      {
+         "id": 9,
+         "title": "경영경제대학",
+         "content": "글로벌 마인드와 의사소통 능력을 갖춘 세계인, 실용학문으로 탄탄히 무장한 예비 경영자, 남을 배려할 줄 알고 사회적 책임의식이 있는 미래 리더를 양성하는 교육을 지향",
+         "department": [
+            "경영학부",
+            "경제학부",
+            "응용통계학과",
+            "광고홍보학과",
+            "국제물류학과",
+            "지식경영학부",
+            "산업보안학과"
+         ],
+         "src": "images/univ_graduate/College_of_Business&Economics.png"
+      },
+      {
+         "id": 10,
+         "title": "의과대학",
+         "content": "의료인으로서 갖추어야 할 인성과 과학인으로서 요구되는 과학적 사고력과 창의성을 배양하고 보건의료에 종사하는 전문인으로서 필요한 지식과 실기를 습득하게 하여 국민건강의 유지 및 증진에 이바지하고 의학의 발전을 도모하기 위한 기반을 마련",
+         "department": ["의학부"],
+         "src": "images/univ_graduate/College_of_Medicine.png"
+      },
+      {
+         "id": 11,
+         "title": "약학대학",
+         "content": "체계적인 기초약학교육을 통한 약학인을, 의약품 개발과 활용능력이 배양된 창조적인 약학전문인을, 약학연구와 산학연 협력을 통한 임상 및 약학연구 전문인을, 윤리의식과 봉사정신이 함양된 전인적이고 개방적인 참약사를 양성한다.",
+         "department": ["약학부"],
+         "src": "images/univ_graduate/College_of_Pharmacy.png"
+      },
+      {
+         "id": 12,
+         "title": "적십자간호대학",
+         "content": "참 간호인재 육성을 위해 세계적 수준의 지식창조 및 학습역량 함양",
+         "department": ["간호학과"],
+         "src": "images/univ_graduate/Red_Cross_College_of_Nursing.png"
+      },
+      {
+         "id": 13,
+         "title": "예술대학",
+         "content": "창의적 지식산업시대에 적합한 새로운 문화예술 양식을 연구, 교육하며, 산학협동을 통한 통합적 문제해결 능력을 갖춘 글로벌 리더를 양성 하고자 합니다.이러한 교육목표를 효과적으로 달성하기 위해 예술대학은 각 장르 간 강의를 개방하는 학제간 교육, 기초 예술교육 확대 및 심화교육을 통하여 문화예술 지식산업시대에 갖추어야 할 창의성과 감성을 갖춘 교육을 지향",
+         "department": [
+            "공연영상창작학부(서울)",
+            "공연영상창작학부(안성)",
+            "미술학부",
+            "디자인학부",
+            "음악학부",
+            "전통예술학부",
+            "글로벌예술학부"
+         ],
+         "src": "images/univ_graduate/College_of_Art.png"
+      },
+      {
+         "id": 14,
+         "title": "예술공학대학",
+         "content": "예술공학대학은 공학과 예술에 대한 융합적 커리큘럼, 산학프로젝트 및 현장 중심의교육, 크리에이티브 산업 분야의 테크놀로지에대한 심화 교육을 통해 세계 수준의 엔터테인먼트 산업 전문가로서의 융합공학인을 양성",
+         "department": ["예술공학부"],
+         "src": "images/univ_graduate/College_of_Art_and_Technology.png"
+      },
+      {
+         "id": 15,
+         "title": "체육대학",
+         "content": " ‘의와 참’의 체육과학인 양성, 국민건강 증진을 위한 웰빙시대 선도자 양성, 스포츠산업 발전에 공헌할 전문가 양성",
+         "department": ["스포츠과학부"],
+         "src": "images/univ_graduate/College_of_Sport_Sciences.png"
+      }
+   ]
+}

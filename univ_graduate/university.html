@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="포트폴리오 모바일작업" />
+    <meta name="keywords" content="html5, css3 ,javascript" />
+    <meta name="author" content="김기철, 이원철, 정종우, 추경" />
+    <meta name="robots" content="index,follow" />
+    <!-- <meta property="og:url" content="수정해야함" /> -->
+    <meta property="og:title" content="세미콜론의 대학" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="210" />
+    <!-- <meta property="og:image" content="이미지경로" /> -->
+    <!-- <meta property="og:description" content="" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>이화여대 - 대학</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header" class="mainheader">
+        <div class="inner">
+          <p class="all-search"><i class="xi-search"></i></p>
+          <h1>
+            <a href="../index.html"><img src="../images/logo.png" alt="이화여자대학교" /></a>
+          </h1>
+          <p class="all-menu"><i class="xi-bars"></i></p>
+        </div>
+      </header>
+      <nav id="nav">
+        <div class="top-menu">
+          <h1>
+            <a href="../index.html"><img src="../images/logo.png" alt="이화여자대학교" /></a>
+          </h1>
+          <p class="all-menu">
+            <a href="../login_and_signup/login.html"><i class="xi-user-o"></i></a>
+          </p>
+          <p class="all-search"><i class="xi-globus"></i></p>
+          <p class="close"><i class="xi-close"></i></p>
+        </div>
+        <div class="gnbflex">
+          <ul class="gnbleft">
+            <li>
+              <a href="#"><i class="xi-city"></i>학교소개</a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-home"></i>입학/교육</a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-book"></i>대학/대학원</a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-chart-line"></i>연구/산학</a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-calendar"></i>대학소식</a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-alarm"></i>대학생활</a>
+            </li>
+          </ul>
+          <ul class="gnb">
+            <li class="m1">
+              <ul>
+                <li><a href="../introduction_to_univ/university_history.html">- 학교연혁</a></li>
+                <li><a href="../introduction_to_univ/president’s_office.html">- 총장실</a></li>
+              </ul>
+            </li>
+            <li class="m2">
+              <ul>
+                <li><a href="../admission_education/admissions_information.html">- 입학안내</a></li>
+              </ul>
+            </li>
+            <li class="m3">
+              <ul>
+                <li><a href="university.html">- 대학</a></li>
+                <li><a href="graduate.html">- 대학원</a></li>
+              </ul>
+            </li>
+            <li class="m4">
+              <ul>
+                <li><a href="../research_industry/research_achievement.html">- 연구성과</a></li>
+                <li><a href="../research_industry/industry_cooperation.html">- 산업협력</a></li>
+              </ul>
+            </li>
+            <li class="m5">
+              <ul>
+                <li><a href="../univ_news/notice.html">- 공지사항</a></li>
+                <li><a href="../univ_news/ewha_News.html">- 이화뉴스</a></li>
+              </ul>
+            </li>
+            <li class="m6">
+              <ul>
+                <li><a href="../univ_life/festival_event.html">- 축제/이벤트</a></li>
+                <li><a href="../univ_life/student_activities.html">- 학생활동</a></li>
+                <li><a href="../univ_life/facility_information.html">- 시설안내</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main id="container" class="university-page">
+        <section id="content">
+          <div class="con-box university">
+            <div class="inner">
+              <p class="btn-wrap">
+                <button><img src="../images/univ_graduate/ico_zoomOut.png" alt="" /></button><button><img src="../images/univ_graduate/ico_zoom.png" alt="" /></button>
+                <button><img src="../images/univ_graduate/ico_zoomIn.png" alt="" /></button>
+                <button><img src="../images/univ_graduate/ico_print2.png" alt="" /></button>
+                <button><img src="../images/univ_graduate/ico_share.png" alt="" /></button>
+              </p>
+              <ul class="univ-list"></ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <div class="middle-footer">
+          <div class="inner">
+            <ul>
+              <li><a href="#">대학정보공시</a></li>
+              <li><a href="#">정보공개</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">의료원</a></li>
+              <li><a href="#">사이트맵</a></li>
+              <li><a href="#">찾아오시는 길</a></li>
+            </ul>
+          </div>
+          <button class="top-btn"><i class="xi-angle-up"></i><br /><br />TOP</button>
+        </div>
+        <div class="bottom-footer">
+          <div class="inner">
+            <div class="left">
+              <ul>
+                <li>
+                  03760 서울특별시 서대문구 이화여대길 52 이화여자대학교<br />
+                  <span>T. 02-3277-2114</span>
+                </li>
+                <li>
+                  COPYRIGHT 2020 BY EWHA WOMANS UNIVERSITY.<br />
+                  ALL RIGHTS RESERVED.
+                </li>
+              </ul>
+            </div>
+            <div class="family-site">
+              <select name="" id="">
+                <option value="">대학 바로가기</option>
+                <option value="">인문과학대학</option>
+                <option value="">사회과학대학</option>
+                <option value="">자연과학대학</option>
+                <option value="">엘텍공과대학</option>
+                <option value="">음악대학</option>
+                <option value="">조형예술대학</option>
+                <option value="">사범대학</option>
+                <option value="">경영대학</option>
+                <option value="">신산업융합대학</option>
+                <option value="">의과대학</option>
+                <option value="">간호대학</option>
+                <option value="">약학대학</option>
+                <option value="">스크랜튼대학</option>
+                <option value="">인공지능대학</option>
+                <option value="">호크마교양대학</option>
+              </select>
+              <button>GO</button>
+              <select name="" id="">
+                <option value="">일반대학원</option>
+                <option value="">국제대학원</option>
+                <option value="">통역번역대학원</option>
+                <option value="">경영전문대학원</option>
+                <option value="">의학전문대학원</option>
+                <option value="">법학전문대학원</option>
+                <option value="">교육대학원</option>
+                <option value="">디자인대학원</option>
+                <option value="">사회복지대학원</option>
+                <option value="">신학대학원</option>
+                <option value="">정책과학대학원</option>
+                <option value="">공연예술대학원</option>
+                <option value="">임상바이오헬스대학원</option>
+                <option value="">임상치의학대학원</option>
+                <option value="">외국어교육특수대학원</option>
+                <option value="">데이터사이언스대학원</option>
+              </select>
+              <button>GO</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

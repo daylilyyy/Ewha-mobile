@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="포트폴리오 모바일작업" />
+    <meta name="keywords" content="html5, css3 ,javascript" />
+    <meta name="author" content="김기철, 이원철, 정종우, 추경" />
+    <meta name="robots" content="index,follow" />
+    <!-- <meta property="og:url" content="수정해야함" /> -->
+    <meta property="og:title" content="세미콜론의 대학" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="210" />
+    <!-- <meta property="og:image" content="이미지경로" /> -->
+    <!-- <meta property="og:description" content="" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>이화여대 - 회원가입</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header-signup" class="header-signup">
+        <a href="../index.html"><i class="xi-home"></i></a>
+      </header>
+      <main id="container" class="signup-page">
+        <section id="content">
+          <div class="con-box signup">
+            <div class="inner">
+              <h2>회원가입</h2>
+              <h3>아이디</h3>
+              <input type="text" id="user-id" title="아이디를 입력하세요" placeholder="영문 + 숫자, 6~16글자 사이로 아이디를 입력하세요." />
+              <h3>비밀번호</h3>
+              <input type="password" id="user-password" title="비밀번호를 입력하세요" placeholder="영문, 숫자, 특수문자 포함 16자리 이상" />
+              <input type="password" id="user-password2" title="비밀번호를 입력하세요" placeholder="비밀번호 재확인" />
+              <p class="password-con">비밀번호를 입력하세요</p>
+              <h3>성함</h3>
+              <input type="text" id="user-name" title="성함을 입력하세요" placeholder="이름 입력" />
+              <h3>생년월일</h3>
+              <input type="text" id="user-birthday" title="생년을 입력하세요" />
+              <span>년</span>
+              <input type="text" id="user-birthday" title="생월을 입력하세요" />
+              <span>월</span>
+              <input type="text" id="user-birthday" title="생일을 입력하세요" />
+              <span>일</span>
+              <input type="radio" name="calendar" id="solar" />
+              <label for="solar">양력</label>
+              <input type="radio" name="calendar" id="lunar" />
+              <label for="lunar">음력</label>
+              <h3>성별</h3>
+              <input type="radio" name="gender" id="man" />
+              <label for="man">남자</label>
+              <input type="radio" name="gender" id="woman" />
+              <label for="woman">여자</label>
+              <h3>Email</h3>
+              <input type="email" id="user-email" title="이메일을 입력하세요" class="w180" />
+              <span>@</span>
+              <input type="email" title="이메일을 입력하세요" class="w180" />
+              <h3>휴대폰 번호</h3>
+              <input type="text" id="user-phone-number" title="휴대폰 번호를 입력하세요" /> -
+              <input type="text" id="user-phone-number2" title="휴대폰 번호를 입력하세요" />
+              <h3>광고 수신 동의</h3>
+              <input type="checkbox" name="receive-whether" id="messege-approve" />
+              <label for="messege-approve">문자 승인</label>
+              <input type="checkbox" name="receive-whether" id="email-approve" />
+              <label for="email-approve">이메일 승인</label>
+              <strong>수신 동의 시 교내 이벤트, 체험단 등 이벤트 소식을 빠르게 받아보실 수 있습니다.</strong>
+              <p class="btn">
+                <input type="submit" value="가입" />
+                <input type="reset" value="취소" />
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer-signup" class="footer-signup">
+        <div class="inner">
+          <ul>
+            <li>03760 서울특별시 서대문구 이화여대길 52 이화여자대학교 <span>T. 02-3277-2114</span></li>
+            <li>COPYRIGHT 2020 BY EWHA WOMANS UNIVERSITY. ALL RIGHTS RESERVED.</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
